@@ -10,7 +10,7 @@ namespace Lab1
     class Program
     {
         static void Main(string[] args)
-        {
+        {   //develop branch
             double a;
             double b;
             double operation;
@@ -36,7 +36,7 @@ namespace Lab1
                             Console.WriteLine("a+b=" + operation);
                             break;
                         case 2:
-                            operation = a - b;
+                            operation = a - b;//
                             Console.WriteLine("a-b=" + operation);
                             break;
                         case 3:

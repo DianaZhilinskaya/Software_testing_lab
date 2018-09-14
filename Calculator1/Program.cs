@@ -45,7 +45,7 @@ namespace Lab1
                             break;
                         case 4:
                             operation = a / b;
-                            if (a == 0) { Console.WriteLine("You can't divide by zero. Try it one more time."); break; }
+                            if (b == 0) { Console.WriteLine("You can't divide by zero. Try it one more time."); break; }
                             else
                                 Console.WriteLine("a/b=" + operation);
                             break;

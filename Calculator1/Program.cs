@@ -13,7 +13,7 @@ namespace Lab1
         {
             double a;
             double b;
-            double d;
+            double operation;
             int c;
             for (;;)
             {
@@ -32,26 +32,26 @@ namespace Lab1
                     switch (c)
                     {
                         case 1:
-                            d = a + b;
-                            Console.WriteLine("a+b=" + d);
+                            operation = a + b;
+                            Console.WriteLine("a+b=" + operation);
                             break;
                         case 2:
-                            d = a - b;
-                            Console.WriteLine("a-b=" + d);
+                            operation = a - b;
+                            Console.WriteLine("a-b=" + operation);
                             break;
                         case 3:
-                            d = a * b;
-                            Console.WriteLine("a*b=" + d);
+                            operation = a * b;
+                            Console.WriteLine("a*b=" + operation);
                             break;
                         case 4:
-                            d = a / b;
+                            operation = a / b;
                             if (a == 0) { Console.WriteLine("You can't divide by zero. Try it one more time."); break; }
                             else
-                                Console.WriteLine("a/b=" + d);
+                                Console.WriteLine("a/b=" + operation);
                             break;
                         case 5:
-                            d = a / b;
-                            Console.WriteLine("a/b=" + d);
+                            operation = a / b;
+                            Console.WriteLine("a/b=" + operation);
                             break;
                     }
                 }

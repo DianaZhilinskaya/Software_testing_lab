@@ -15,6 +15,7 @@ namespace Lab1
             double second_v;
             double operation;
             int c;
+            Console.WriteLine("Let start");
             for (;;)
             {
                 {

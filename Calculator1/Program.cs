@@ -50,8 +50,6 @@ namespace Lab1
                                 Console.WriteLine("a/b=" + operation);
                             break;
                         case 5:
-                            operation = a / b;
-                            Console.WriteLine("a/b=" + operation);
                             break;
                     }
                 }

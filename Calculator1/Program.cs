@@ -20,7 +20,7 @@ namespace Lab1
             {
                 {
                     Console.WriteLine("enter the first number");
-                    first_v = Convert.ToDouble(Console.ReadLine());
+                    first_v = Convert.ToDouble(Console.ReadLine());//convert to double
                     Console.WriteLine("enter the second number");
                     second_v = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Choose the operation");

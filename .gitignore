@@ -1,0 +1,14 @@
+Calculator1/*.cprog
+Calculator1/*.csproj
+Calculator1/obj/Debug/*.txt
+Calculator1/obj/Debug/*.pdb
+Calculator1/obj/Debug/*.exe
+Calculator1/obj/Debug/*.cache
+Calculator1/bin/Debug/*.config
+Calculator1/bin/Debug/*.exe
+Calculator1/bin/Debug/*.exe.config
+Calculator1/bin/Debug/*.exe.manifest
+Calculator1/bin/Debug/*.pdb
+Calculator1/bin/Debug/*.manifest
+Calculator1/bin/Debug/*.vshost
+

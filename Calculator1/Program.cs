@@ -50,6 +50,7 @@ namespace Lab1
                                 Console.WriteLine("a/b=" + operation);
                             break;
                         case 5:
+                            Console.WriteLine("Exit from this cycle");
                             break;
                     }
                 }

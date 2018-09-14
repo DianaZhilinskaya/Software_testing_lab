@@ -11,17 +11,17 @@ namespace Lab1
     {
         static void Main(string[] args)
         {   //develop branch
-            double a;
-            double b;
+            double first_v;
+            double second_v;
             double operation;
             int c;
             for (;;)
             {
                 {
                     Console.WriteLine("enter the first number");
-                    a = Convert.ToDouble(Console.ReadLine());
+                    first_v = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("enter the second number");
-                    b = Convert.ToDouble(Console.ReadLine());
+                    second_v = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Choose the operation");
                     Console.WriteLine("1)+");
                     Console.WriteLine("2)-");
@@ -32,20 +32,20 @@ namespace Lab1
                     switch (c)
                     {
                         case 1:
-                            operation = a + b;
+                            operation = first_v + second_v;
                             Console.WriteLine("a+b=" + operation);
                             break;
                         case 2:
-                            operation = a - b;//
+                            operation = first_v - second_v;//
                             Console.WriteLine("a-b=" + operation);
                             break;
                         case 3:
-                            operation = a * b;
+                            operation = first_v * second_v;
                             Console.WriteLine("a*b=" + operation);
                             break;
                         case 4:
-                            operation = a / b;
-                            if (b == 0) { Console.WriteLine("You can't divide by zero. Try it one more time."); break; }
+                            operation = first_v / second_v;
+                            if (second_v == 0) { Console.WriteLine("You can't divide by zero. Try it one more time."); break; }
                             else
                                 Console.WriteLine("a/b=" + operation);
                             break;

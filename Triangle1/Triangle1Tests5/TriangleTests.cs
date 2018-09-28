@@ -12,11 +12,11 @@ namespace Triangle1.Tests
     public class TriangleTests
     {
         [TestMethod()]
-        public void Test_a_minus5_returnfalse()
+        public void test_cmorethenaplusb_returnfalse()
         {
-            int a = -5;
-            int b = 3;
-            int c = 5;
+            int a = 5;
+            int b = 5;
+            int c = 11;
             bool s = false;
 
             Triangle second = new Triangle();

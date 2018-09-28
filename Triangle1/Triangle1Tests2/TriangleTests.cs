@@ -12,15 +12,15 @@ namespace Triangle1.Tests
     public class TriangleTests
     {
         [TestMethod()]
-        public void Test_a_minus5_returnfalse()
+        public void test_a_0_returnfalse()
         {
-            int a = -5;
+            int a = 0;
             int b = 3;
             int c = 5;
             bool s = false;
 
             Triangle second = new Triangle();
-            bool actual = second.test(a, b, c);
+            bool actual = second.test(a,b, c);
 
             Assert.AreEqual(s, actual);
         }

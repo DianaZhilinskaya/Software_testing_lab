@@ -12,8 +12,6 @@ namespace Triangle1
         {
             if (a > 0 && b > 0 && c > 0)
             {
-                if (a != null && b != null && c != null)
-                {
                     if (a + b <= c || a + c <= b || b + c <= a)
                     {
                         return false;
@@ -21,8 +19,6 @@ namespace Triangle1
 
                     return true;
                 }
-                return true;
-            }
 
             else { Console.WriteLine("This can not be."); return false; }
 

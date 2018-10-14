@@ -15,7 +15,7 @@ namespace WebDriverTest
     {
         [TestMethod]
   
-        public void TestMethod1()
+        public void message_appears_if_airports_match()
         {
             RemoteWebDriver Driver = new ChromeDriver();
 

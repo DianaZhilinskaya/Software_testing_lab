@@ -10,8 +10,6 @@ namespace Triangle2
     {
         public bool test(int a, int b, int c)
         {
-            if (a > 0 && b > 0 && c > 0)
-            {
                 if (a + b <= c || a + c <= b || b + c <= a)
                 {
                     return false;
@@ -19,8 +17,5 @@ namespace Triangle2
 
                 return true;
             }
-
-            else { Console.WriteLine("This can not be."); return false; }
-        }
     }
 }
